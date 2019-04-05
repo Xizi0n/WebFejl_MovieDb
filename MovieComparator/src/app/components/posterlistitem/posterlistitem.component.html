@@ -1,0 +1,6 @@
+<div class="poster">
+  
+  <img *ngIf="poster.image !== 'N/A'" [src]="poster.image" alt="">
+  <img *ngIf="poster.image == 'N/A'" src="../../../assets/comingsoon.jpg" alt="">
+  <div class="title">{{poster.title}}</div>
+</div>

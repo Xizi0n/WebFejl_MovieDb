@@ -1,0 +1,38 @@
+
+.header {
+    height: 48px;
+    background-color: #212121;
+    color: fafafa;
+}
+
+.brand {
+    line-height: 48px;
+    font-size: 2em;
+    margin-left: 20px;
+    color: #fafafa;
+    float: left;
+    max-width: 20%;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 48px;
+}
+
+.button {
+    margin-right: 20px;
+    color: #fafafa;
+    border-radius: 5px;
+    max-height: 48px;
+}
+
+#compare {
+    
+}
+
+#search {
+    
+}

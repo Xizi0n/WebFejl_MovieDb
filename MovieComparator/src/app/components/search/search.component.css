@@ -1,0 +1,28 @@
+
+
+input {
+    width: 200px;;
+    border: none;
+    height: 30px;
+    font-size: 1.2em;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+.icon {
+    margin-left: 10px;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+i {
+    font-size: 1.2em;
+}
+
+.searchBox {
+    display: flex;
+    flex-direction: row;
+    line-height: 48px;
+    align-items: center;
+    margin-right: 20px;
+}

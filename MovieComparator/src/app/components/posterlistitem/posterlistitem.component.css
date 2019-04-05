@@ -1,0 +1,16 @@
+
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.poster {
+    max-width: 300px;
+}
+
+.title {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+}
