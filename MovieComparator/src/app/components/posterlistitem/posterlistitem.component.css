@@ -14,3 +14,15 @@ img {
     font-size: 1.2em;
     text-align: center;
 }
+
+.button {
+    width: 100%;
+    border: none;
+    background-color: lightcoral;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button:disabled {
+    color:black;
+}

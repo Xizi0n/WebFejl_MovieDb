@@ -1,0 +1,13 @@
+
+<div class="wrapper">
+  <div style="width: 100%">
+      <img src="{{details.Poster}}" alt="">
+  </div>
+  <div class="infoBar" style="margin-top: 20px;">Title: {{details.Title}}</div>
+  <div class="infoBar">Year: {{details.Year}}</div>
+  <div class="infoBar">Released: {{details.Released}}</div>
+  <div class="infoBar">Runtime: {{details.Runtime}}</div>
+  <div *ngFor="let rating of ratings;" style="width: 80%">
+    <div class="infoBar" style="width: 100%; margin: 0 auto; margin-bottom: 3px;"><span>{{rating.Source}}: </span><span>{{rating.Value}}</span></div>
+  </div>
+</div>

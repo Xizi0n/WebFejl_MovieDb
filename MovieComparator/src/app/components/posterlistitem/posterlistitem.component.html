@@ -1,6 +1,8 @@
-<div class="poster">
+<div class="poster" >
   
-  <img *ngIf="poster.image !== 'N/A'" [src]="poster.image" alt="">
+  <img *ngIf="poster.image !== 'N/A'" [src]="poster.image" title="{{poster.title}}">
   <img *ngIf="poster.image == 'N/A'" src="../../../assets/comingsoon.jpg" alt="">
-  <div class="title">{{poster.title}}</div>
+  <!-- <div class="title">{{poster.title}}</div> -->
+  <button *ngIf="!isInCompare" (click)="getDetails()" class="button"> Add to Compare! </button>
+  <button *ngIf="isInCompare" (click)="getDetails()" class="button" style="background-color:green" disabled> Already in Compare </button>
 </div>

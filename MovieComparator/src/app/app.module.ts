@@ -12,6 +12,8 @@ import { PoesterlistComponent } from './components/poesterlist/poesterlist.compo
 import { PosterlistitemComponent } from './components/posterlistitem/posterlistitem.component';
 import { SearchComponent } from './components/search/search.component';
 import { SearchResultComponent } from './components/search-result/search-result.component';
+import { CompareComponent } from './components/compare/compare.component';
+import { CompareItemComponent } from './components/compare-item/compare-item.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { SearchResultComponent } from './components/search-result/search-result.
     PoesterlistComponent,
     PosterlistitemComponent,
     SearchComponent,
-    SearchResultComponent
+    SearchResultComponent,
+    CompareComponent,
+    CompareItemComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,7 @@
 
 .background {
     background-color: #5C5D5D;
+    max-height: calc( 100vh - 48px);
 }
 
 .container {

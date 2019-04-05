@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="flex">
+    <div *ngFor="let detail of details; let i = index;">
+      <app-compare-item [details]="detail" [place]="i" ></app-compare-item>
+    </div>
+  </div>
+</div>
